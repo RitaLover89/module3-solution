@@ -1,0 +1,58 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #032fdc;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#header-nav {
+  background-color: #ff8c00;
+  border-radius: 0;
+  border: 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.navbar-brand h1 { 
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 25px;
+  line-height: .75;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #032fdc;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+/********** Medium devices only **********/
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: @screen-xs-max) {
+
+}
