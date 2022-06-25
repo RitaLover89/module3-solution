@@ -41,10 +41,19 @@ h2 {
   margin-top: -30px;
 }
 
+.row {
+    width: 100%;
+    color: #000;
+    border: 1px solid #000;
+    background-color: #ededed;
+    margin: 10px auto;
+    padding: 20px;
+}
+
 
 /********** Medium devices only **********/
 @media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
-
+    
 }
 
 /********** Small devices only **********/
