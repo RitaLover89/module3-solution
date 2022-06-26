@@ -12,9 +12,16 @@ body {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     text-shadow: 1px 1px 1px #000;
+}
+
+h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px #000;
+    color: #ff8c00;
 }
 
 .navbar-brand {
@@ -48,8 +55,9 @@ h2 {
     border: 1px solid #000;
     background-color: #ededed;
     margin: 10px auto;
-    padding: 20px;
+    padding: 10px 20px 20px;
 }
+
 
 
 /********** Medium devices only **********/
@@ -64,5 +72,11 @@ h2 {
 
 /********** Extra small devices only **********/
 @media (max-width: @screen-xs-max) {
-
+    #collapsable-nav { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
 }
